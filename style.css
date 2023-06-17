@@ -1,0 +1,242 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+/**MISC**/
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    margin-top: 10vh;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+html {
+    scroll-behavior: smooth; /**Scrolling becomes more smoother**/
+  }
+
+
+  
+  main,
+  footer,
+  header {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+    animation: fadeIn 2s !important; /**Animation of the page appearing, because why not :)**/
+  }
+
+#sedan-background {
+  height: 60vh;
+  width: 37vh;
+  background-color: hsl(31, 77%, 52%);
+  margin-top: 12rem;
+  margin-left: 10vh;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+
+#learnmore1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  height: 5vh;
+  width: 8.5rem;
+  border-radius: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-top: 9vh;
+  margin-left: 4vh;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#learnmore2 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  height: 5vh;
+  width: 8.5rem;
+  border-radius: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-top: 9vh;
+  margin-left: 4vh;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#learnmore3 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  height: 5vh;
+  width: 8.5rem;
+  border-radius: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-top: 9vh;
+  margin-left: 4vh;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#suv-background {
+  height: 60vh;
+  width: 37vh;
+  background-color: hsl(184, 100%, 22%);
+  margin-top: -30.5rem;
+  margin-left: 23.8rem;
+}
+
+
+
+#luxury-background {
+  height: 60vh;
+  width: 37vh;
+  background-color: hsl(179, 100%, 13%);
+  margin-top: -30.5rem;
+  margin-left: 42.6rem;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+
+#vehicles-container {
+  margin-left: 5.5vh;
+}
+/**TEXT**/
+
+.vehicle-header {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 35px;
+  margin-left: 3.5vh;
+  margin-top: 4vh;
+  letter-spacing: 1px;
+}
+
+.sedan-text {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 3.5vh;
+  margin-top: 4vh;
+}
+
+.suv-text {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 3.5vh;
+  margin-top: 4vh;
+}
+
+.luxury-text {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 3.5vh;
+  margin-top: 4vh;
+}
+
+
+/**IMAGES**/
+
+.icon-sedan {
+  margin-top: 5.5vh;
+  margin-left: 4vh;
+}
+.icon-suv {
+  margin-top: 5.5vh;
+  margin-left: 4vh;
+}
+
+.icon-luxury {
+  margin-top: 5.5vh;
+  margin-left: 4vh;
+}
+
+/**ACTIVE STATES**/
+
+#learnmore1:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+#learnmore2:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+#learnmore3:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+
+/**MEDIA QUERIES**/
+
+@media (max-width: 1440px) {
+  #suv-background {
+    margin-top: -60vh;
+    margin-left: 23.5rem;
+  }
+
+  #luxury-background {
+    margin-top: -30rem;
+    margin-left: 41.9rem;
+  }
+
+  #vehicles-container {
+    margin-left: 2.5vh;
+  }
+}
+
+@media (max-width: 375px) {
+
+  #vehicles-container {
+    margin-left: -14vh;
+    margin-top: -14vh;
+  }
+
+  #sedan-background {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  #suv-background {
+    margin-top: 0vh;
+    margin-left: 9.35rem;
+  }
+
+  #luxury-background {
+    margin-top: 0vh;
+    margin-left: 9.35rem;
+  }
+
+  .attribution { 
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 10vh;
+    margin-left: 6vh;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+#learnmore1 {
+  height: 3vh;
+}
+
+#learnmore2 {
+  height: 3vh;
+}
+
+#learnmore3 {
+  height: 3vh;
+}
+}
